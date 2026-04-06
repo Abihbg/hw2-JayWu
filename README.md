@@ -1,7 +1,7 @@
 # HW2 - Simple GenAI Workflow
 
 ## Workflow Chosen
-The goal of this project is to summarize meeting content into actionable items.
+The goal of this project is to summarize meeting content into actionable items. To run the code, set your own GEMINI_API_KEY as an environment variable before executing app.py.
 
 ## Target Users
 The target users are business students, analysts, or anyone who relies heavily on meetings to advance their work and learning, as well as team members who need to collaborate on assignments. These users often need to organize scattered, hastily taken meeting notes into structured follow-up items.
