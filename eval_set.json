@@ -1,0 +1,27 @@
+[
+  {
+    "case": 1,
+    "type": "Normal Case",
+    "input": "Team discussed launching a student ambassador campaign next month. Sarah will draft the outreach email by Friday. Mike will prepare the budget estimate by Monday. The team will review progress next Wednesday."
+  },
+  {
+    "case": 2,
+    "type": "Normal Case",
+    "input": "Customer success team met to discuss onboarding delays. The main issue is that new clients are not submitting documents on time. Jenny will redesign the onboarding checklist. Alex will send reminder emails to clients."
+  },
+  {
+    "case": 3,
+    "type": "Edge Case",
+    "input": "marketing?? sales down maybe?? support issues again need fix asap who owns this?? not sure maybe next week talk again"
+  },
+  {
+    "case": 4,
+    "type": "Likely Hallucination Case",
+    "input": "The team briefly mentioned vendor pricing, legal review, and a possible rollout plan, but no final decisions were made. Someone may follow up next week."
+  },
+  {
+    "case": 5,
+    "type": "Needs Human Review / Failure-Prone Case",
+    "input": "John may contact the vendor, or maybe Lisa already did. Budget might be around $8,000, but I am not sure if that was for Q2 or Q3. Someone should check legal before rollout, but the timing was not confirmed."
+  }
+]
