@@ -1,0 +1,93 @@
+
+===== CASE 1: Normal Case =====
+INPUT:
+Team discussed launching a student ambassador campaign next month. Sarah will draft the outreach email by Friday. Mike will prepare the budget estimate by Monday. The team will review progress next Wednesday.
+
+OUTPUT:
+Here's a brief summary and action items from your meeting notes:
+
+## Meeting Summary
+
+The team met today to discuss the upcoming launch of the student ambassador campaign, which is scheduled for next month.
+
+## Action Items
+
+*   **Sarah:** Draft the student ambassador campaign outreach email. **Due: Friday**
+*   **Mike:** Prepare the budget estimate for the campaign. **Due: Monday**
+*   **Team:** Review campaign progress. **Meeting: Next Wednesday**
+------------------------------------------------------------
+===== CASE 2: Normal Case =====
+INPUT:
+Customer success team met to discuss onboarding delays. The main issue is that new clients are not submitting documents on time. Jenny will redesign the onboarding checklist. Alex will send reminder emails to clients.
+
+OUTPUT:
+Here's a brief summary of your meeting and the action items:
+
+**Meeting Summary:**
+
+The Customer Success team met to discuss current onboarding delays. The core issue identified is the late submission of required documents by new clients. The team agreed on immediate steps to improve this process.
+
+**Action Items:**
+
+*   **Jenny:** Redesign the onboarding checklist to streamline the document submission process.
+*   **Alex:** Send proactive reminder emails to clients regarding outstanding onboarding documents.
+------------------------------------------------------------
+===== CASE 3: Edge Case =====
+INPUT:
+marketing?? sales down maybe?? support issues again need fix asap who owns this?? not sure maybe next week talk again
+
+OUTPUT:
+Here's a summary of your meeting and a list of action items:
+
+***
+
+**Meeting Summary:**
+
+Today's discussion centered on pressing business concerns, specifically a potential downturn in sales and persistent customer support issues. While marketing's role was briefly touched upon, the primary focus was on the urgency to address support problems. The meeting concluded without clear ownership defined for resolving these support challenges, indicating a need for immediate follow-up and resolution.
+
+**Action Items:**
+
+*   **Investigate Sales Performance:** Confirm recent sales trends and identify potential contributing factors.
+*   **Assess Marketing Effectiveness:** Review current marketing strategies in relation to sales performance.
+*   **Address Customer Support Issues:**
+    *   **Identify Root Cause:** Investigate the underlying reasons for recurring support problems.
+    *   **Assign Ownership:** Clearly define who is responsible for resolving these issues immediately.
+    *   **Develop Action Plan:** Create and implement a plan to fix the support issues *as soon as possible*.
+*   **Schedule Follow-Up Meeting:** Plan a follow-up discussion to review findings, confirm ownership, and solidify next steps for all identified issues.
+------------------------------------------------------------
+===== CASE 4: Likely Hallucination Case =====
+INPUT:
+The team briefly mentioned vendor pricing, legal review, and a possible rollout plan, but no final decisions were made. Someone may follow up next week.
+
+OUTPUT:
+Here's a brief summary and action items based on your notes:
+
+**Meeting Summary:**
+
+The team held a brief discussion touching upon vendor pricing, legal review considerations, and a potential rollout plan. No final decisions were made regarding any of these topics.
+
+**Action Items:**
+
+*   **Determine Owner:** Identify who will be responsible for following up on the discussed topics (vendor pricing, legal review, and rollout plan).
+*   **Clarify Next Steps:** Outline the specific next steps and timelines for each of these areas for follow-up, as suggested for next week.
+------------------------------------------------------------
+===== CASE 5: Needs Human Review / Failure-Prone Case =====
+INPUT:
+John may contact the vendor, or maybe Lisa already did. Budget might be around $8,000, but I am not sure if that was for Q2 or Q3. Someone should check legal before rollout, but the timing was not confirmed.
+
+OUTPUT:
+Here's a brief meeting summary and a list of action items based on your notes:
+
+---
+
+**Meeting Summary**
+
+The recent meeting touched upon several project elements, but specific details and assignments remain unconfirmed. Discussions included the status of vendor contact, an estimated budget amount for an unspecified quarter, and the necessity of a legal review before project rollout, with no clear timeline established. Further clarification is required on all points to advance the project.
+
+---
+
+**Action Items**
+
+1.  **Vendor Contact:** John and Lisa to confirm the current vendor contact status. Assign a clear point of contact for all future vendor communications.
+2.  **Budget Confirmation:** Identify the responsible party to verify the exact budget amount (approx. $8,000) and confirm whether it is allocated for Q2 or Q3.
+3.  **Legal Review & Rollout Timeline:** Designate a responsible individual or department to conduct the required legal review. Establish a preliminary timeline for the legal review and overall project rollout.
